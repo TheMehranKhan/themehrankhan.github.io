@@ -1,0 +1,19 @@
+body {
+  background-color: #b6b6b6;
+  color: #;
+}
+
+#myTitle {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 60px;
+}
+
+#content {
+  margin-top: 60px;
+  margin-left: 10%;
+  margin-bottom: 40px;
+}
+
+li {
+  font-weight: bold;
+}
