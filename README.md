@@ -1,2 +1,2 @@
 # themehrankhan.github.io
-My Website
+website
