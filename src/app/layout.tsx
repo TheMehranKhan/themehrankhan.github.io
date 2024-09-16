@@ -1,9 +1,8 @@
-import Footer from "@/app/_components/footer";
+import Footer from "@/app/_components/footer"; // Import the new Header component
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
-import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
 
@@ -11,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: `TheMehranKhan's Blog`,
-  description: `Mehran is a developer, this website is TheMehranKhan posts his thoughts and ideas.`,
+  description: `Mehran is a developer, this website is where TheMehranKhan posts his thoughts and ideas.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
@@ -60,8 +59,10 @@ export default function RootLayout({
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
-        <ThemeSwitcher />
-        <div className="min-h-screen">{children}</div>
+        {/* Add padding-top to account for header */}
+        <main className="min-h-screen pt-24"> {/* Adjust padding-top here */}
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
