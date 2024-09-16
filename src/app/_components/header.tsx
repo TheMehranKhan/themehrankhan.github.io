@@ -5,16 +5,16 @@ import { ThemeSwitcher } from '@/app/_components/theme-switcher';  // Adjust the
 
 const Header = () => {
   const socialLinks = [
-    { name: "Twitch", url: "https://twitch.tv/themehrankhan", icon: FaTwitch, color: "hover:text-purple-400" },
-    { name: "Sub-Reddit", url: "https://reddit.com/r/themehrankhan", icon: FaReddit, color: "hover:text-orange-500" },
-    { name: "Instagram", url: "https://instagram.com/cybermehran", icon: FaInstagram, color: "hover:text-pink-500" },
-    { name: "TikTok", url: "https://tiktok.com/@themehrankhan", icon: FaTiktok, color: "hover:text-teal-300" },
-    { name: "Twitter", url: "https://x.com/coderwizardanon", icon: FaTwitter, color: "hover:text-blue-400" },
-    { name: "Linktree", url: "https://linktr.ee/themehrankhan", icon: FaLink, color: "hover:text-green-400" }
+    { name: "Twitch", url: "https://twitch.tv/themehrankhan", icon: FaTwitch, color: "text-purple-500" },
+    { name: "Sub-Reddit", url: "https://reddit.com/r/themehrankhan", icon: FaReddit, color: "text-orange-500" },
+    { name: "Instagram", url: "https://instagram.com/cybermehran", icon: FaInstagram, color: "text-pink-500" },
+    { name: "TikTok", url: "https://tiktok.com/@themehrankhan", icon: FaTiktok, color: "text-blue-500" },
+    { name: "Twitter", url: "https://x.com/coderwizardanon", icon: FaTwitter, color: "text-indigo-500" },
+    { name: "Linktree", url: "https://linktr.ee/themehrankhan", icon: FaLink, color: "text-green-500" }
   ];
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-gradient-to-r from-blue-800 via-blue-900 to-black dark:from-blue-700 dark:via-blue-800 dark:to-black text-white p-6 shadow-xl">
+    <header className="mb-20 mt-8 bg-gradient-to-r from-gray-900 to-gray-700 text-white p-6 rounded-lg shadow-lg">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-6 md:mb-0">
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200 dark:from-gray-100 dark:to-gray-300">
