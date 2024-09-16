@@ -8,7 +8,7 @@ const Header = () => {
     { name: "Twitch", url: "https://twitch.tv/themehrankhan", icon: FaTwitch, color: "hover:text-purple-400" },
     { name: "Sub-Reddit", url: "https://reddit.com/r/themehrankhan", icon: FaReddit, color: "hover:text-orange-500" },
     { name: "Instagram", url: "https://instagram.com/cybermehran", icon: FaInstagram, color: "hover:text-pink-500" },
-    { name: "TikTok", url: "https://tiktok.com/themehrankhan", icon: FaTiktok, color: "hover:text-teal-300" },
+    { name: "TikTok", url: "https://tiktok.com/@themehrankhan", icon: FaTiktok, color: "hover:text-teal-300" },
     { name: "Twitter", url: "https://x.com/coderwizardanon", icon: FaTwitter, color: "hover:text-blue-400" },
     { name: "Linktree", url: "https://linktr.ee/themehrankhan", icon: FaLink, color: "hover:text-green-400" }
   ];

@@ -5,6 +5,7 @@ import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
 import { Metadata } from 'next';
 import { HOME_OG_IMAGE_URL } from '@/lib/constants';
+import Header from "@/app/_components/header"; 
 
 export const generateMetadata = (): Metadata => {
   const allPosts = getAllPosts();
@@ -64,6 +65,7 @@ export default function Index() {
   return (
     <>
       <main>
+      <Header />  {/* Fixed header */}
         <Container>
           <Intro />
           <HeroPost
