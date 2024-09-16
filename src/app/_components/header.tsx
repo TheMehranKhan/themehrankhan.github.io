@@ -14,19 +14,17 @@ const Header = () => {
   ];
 
   return (
-    <header className="mb-20 mt-8 bg-gradient-to-r from-gray-900 to-gray-700 text-white p-6 rounded-lg shadow-lg">
+    <header className="mb-20 mt-4 bg-gradient-to-r from-gray-900 to-gray-700 text-white p-6 rounded-lg shadow-lg">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-6 md:mb-0">
-          <h2 className="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200 dark:from-gray-100 dark:to-gray-300">
-            Mehran's Personal Website
-            <span className="block text-2xl md:text-3xl mt-2 font-semibold">Official Links <span className="inline-block transform rotate-12 animate-pulse">👉🏻</span></span>
-          </h2>
-          <div className="ml-4">
-            {/* Theme Switcher */}
-            <ThemeSwitcher />
-          </div>
+          <a href="/">
+            <h2 className="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200 dark:from-gray-100 dark:to-gray-300">
+              Mehran's Personal Website
+              <span className="block text-2xl md:text-3xl mt-2 font-semibold">Official Links <span className="inline-block transform rotate-12 animate-pulse">👉🏻</span></span>
+            </h2>
+          </a>
         </div>
-        <nav className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <nav className="grid grid-cols-2 md:grid-cols-3 gap-2">
           {socialLinks.map((link, index) => (
             <Link 
               key={index} 

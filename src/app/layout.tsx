@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link
           rel="apple-touch-icon"
@@ -60,7 +60,7 @@ export default function RootLayout({
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
         {/* Add padding-top to account for header */}
-        <main className="min-h-screen pt-24"> {/* Adjust padding-top here */}
+        <main> {/* Adjust padding-top here */}
           {children}
         </main>
         <Footer />

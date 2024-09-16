@@ -4,6 +4,7 @@ import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
 import { Metadata } from 'next';
+import Alert from "@/app/_components/alert";
 import { HOME_OG_IMAGE_URL } from '@/lib/constants';
 import Header from "@/app/_components/header"; 
 
@@ -59,6 +60,7 @@ export const generateMetadata = (): Metadata => {
   };
 };
 
+
 export default function Index() {
   const allPosts = getAllPosts();
   const heroPost = allPosts[0];
@@ -67,6 +69,7 @@ export default function Index() {
   return (
     <>
       <main>
+      <Alert />
       <Header />  {/* Fixed header */}
         <Container>
           <Intro />
