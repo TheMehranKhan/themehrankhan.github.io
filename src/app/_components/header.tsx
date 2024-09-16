@@ -6,13 +6,13 @@ const Header = () => {
     { name: "Twitch", url: "https://twitch.tv/themehrankhan", icon: FaTwitch },
     { name: "Sub-Reddit", url: "https://reddit.com/r/themehrankhan", icon: FaReddit },
     { name: "Instagram", url: "https://instagram.com/cybermehran", icon: FaInstagram },
-    { name: "TikTok", url: "https://tiktok.com/themehrankhan", icon: FaTiktok },
+    { name: "TikTok", url: "https://tiktok.com/@themehrankhan", icon: FaTiktok },
     { name: "Twitter", url: "https://x.com/coderwizardanon", icon: FaTwitter },
     { name: "Linktree", url: "https://linktr.ee/themehrankhan", icon: FaLink }
   ];
 
   return (
-    <header className="mb-20 mt-8 bg-gradient-to-r from-blue-900 to-purple-700 text-white p-6 rounded-lg shadow-lg">
+    <header className="mb-20 mt-8 bg-gradient-to-r from-gray-900 to-gray-700 text-white p-6 rounded-lg shadow-lg">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <h2 className="text-3xl md:text-5xl font-extrabold tracking-tighter leading-tight mb-4 md:mb-0">
           Mehran's Personal Website - Official Links <span className="inline-block transform rotate-12">👉🏻</span>
