@@ -25,6 +25,8 @@ export const generateMetadata = (): Metadata => {
     }
   };
 
+  const structuredDataString = JSON.stringify(structuredData);
+
   return {
     title: `TheMehranKhan's Blog`,
     description: `Mehran is a developer, this website is TheMehranKhan posts his thoughts and ideas.`,
@@ -52,7 +54,7 @@ export const generateMetadata = (): Metadata => {
     },
     other: {
       'application-name': `TheMehranKhan's Blog`,
-      ...structuredData,
+      ...JSON.parse(structuredDataString),
     },
   };
 };

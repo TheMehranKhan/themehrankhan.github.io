@@ -3,12 +3,12 @@ import { FaTwitch, FaReddit, FaInstagram, FaTiktok, FaTwitter, FaLink } from "re
 
 const Header = () => {
   const socialLinks = [
-    { name: "Twitch", url: "https://twitch.tv/themehrankhan", icon: FaTwitch },
-    { name: "Sub-Reddit", url: "https://reddit.com/r/themehrankhan", icon: FaReddit },
-    { name: "Instagram", url: "https://instagram.com/cybermehran", icon: FaInstagram },
-    { name: "TikTok", url: "https://tiktok.com/@themehrankhan", icon: FaTiktok },
-    { name: "Twitter", url: "https://x.com/coderwizardanon", icon: FaTwitter },
-    { name: "Linktree", url: "https://linktr.ee/themehrankhan", icon: FaLink }
+    { name: "Twitch", url: "https://twitch.tv/themehrankhan", icon: FaTwitch, color: "text-purple-500" },
+    { name: "Sub-Reddit", url: "https://reddit.com/r/themehrankhan", icon: FaReddit, color: "text-orange-500" },
+    { name: "Instagram", url: "https://instagram.com/cybermehran", icon: FaInstagram, color: "text-pink-500" },
+    { name: "TikTok", url: "https://tiktok.com/@themehrankhan", icon: FaTiktok, color: "text-blue-500" },
+    { name: "Twitter", url: "https://x.com/coderwizardanon", icon: FaTwitter, color: "text-indigo-500" },
+    { name: "Linktree", url: "https://linktr.ee/themehrankhan", icon: FaLink, color: "text-green-500" }
   ];
 
   return (
